@@ -1,0 +1,174 @@
+{
+  "clientId": "1313917949546856570",
+  "guildId": "1314249917430104104",
+  "autoRole": {
+    "userRoleId": "1314249917530902599",
+    "botRoleId": "1314249917530902598"
+  },
+  "ticketSettings": {
+    "ticketSetup": {
+      "embedColor": "#0099ff",
+      "embedTitle": "تذكرة تشامبيون",
+      "embedDescription": "الرجاء الضغط على الزر أدناه لفتح تكت",
+      "embedImage": "https://media.discordapp.net/attachments/1313886199647309844/1315954121836068914/image0-removebg-preview.png?ex=675bec47&is=675a9ac7&hm=004c681065a1dce0c936e43a61748e50e42e8b71b2aded65fbfa78620088b206&=&format=webp&quality=lossless"
+    },
+    "ticketGroups": {
+      "نقل": {
+        "buttonCustomId": "نقل",
+        "buttonStyle": "Primary",
+        "ticketCategoryId": "1316155358494064721",
+        "supportRoleId": "1314249917799202862",
+        "image": "https://media.discordapp.net/attachments/1313886199647309844/1315954121836068914/image0-removebg-preview.png?ex=675bec47&is=675a9ac7&hm=004c681065a1dce0c936e43a61748e50e42e8b71b2aded65fbfa78620088b206&=&format=webp&quality=lossless",
+        "buttonLabel": "قتح تكت نقل"
+      }
+    }
+  },
+  "giveaways": {
+    "enabled": "true"
+  },
+  "autoResponders": [
+    {
+      "trigger": "hello",
+      "reply": "مرحبا, {{username}}! كيف اقدر اخدمك",
+      "mentionUser": true
+    },
+    {
+      "trigger": "ip",
+      "reply": "Soon {{user}}",
+      "mentionUser": true
+    }
+  ],
+  "protection": {
+    "allowedGuildId": 1314249917430104000,
+    "logChannelId": 1314249917866446800,
+    "whitelistRoles": [
+      "1314249917828431878",
+      "1314249917866446858"
+    ],
+    "antispam": {
+      "active": "true",
+      "messageCount": 4,
+      "time": 10000,
+      "deleteMessages": "true",
+      "timeout": "true",
+      "timeoutDuration": 60000
+    },
+    "antilinks": {
+      "active": "true",
+      "actions": {
+        "timeoutDuration": 60000,
+        "timeout": "true",
+        "kick": "false",
+        "ban": "false"
+      },
+      "deleteMessages": "false"
+    },
+    "channelMonitoring": {
+      "maxChannelChanges": 2,
+      "timeFrame": 60000,
+      "action": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "roleMonitoring": {
+      "maxRoleChanges": 3,
+      "timeFrame": 60000,
+      "action": "timeout",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "kickMonitoring": {
+      "maxKicks": 1,
+      "timeFrame": 60000,
+      "action": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "banMonitoring": {
+      "maxBans": 1,
+      "timeFrame": 60000,
+      "action": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "botMonitoring": {
+      "action": "kick",
+      "botAction": "kick",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "roleEditMonitoring": {
+      "maxEdits": 3,
+      "timeFrame": 60000,
+      "action": "timeout",
+      "timeoutDuration": 600000,
+      "active": "false"
+    },
+    "serverEditMonitoring": {
+      "maxEdits": 3,
+      "timeFrame": 60000,
+      "action": "timeout",
+      "timeoutDuration": 600000,
+      "active": "false"
+    }
+  },
+  "commands": {
+    "userinfo": true,
+    "serverinfo": true,
+    "avatar": true,
+    "banner": true,
+    "clear": true,
+    "timeout": true,
+    "kick": true,
+    "ban": true,
+    "unban": true,
+    "role": true,
+    "rtimeout": true,
+    "lock": true,
+    "unlock": true,
+    "setnick": true,
+    "mute": true,
+    "unmute": true,
+    "move": true,
+    "giveawaySetup": true
+  },
+  "logger": {
+    "enabled": true,
+    "events": {
+      "nicknameChangelog": "1316724346747879455",
+      "nicknameChange": true,
+      "channelCreatelog": "1316897763132178553",
+      "channelCreate": true,
+      "channelDeletelog": "1316897853947379744",
+      "channelDelete": true,
+      "channelUpdatelog": "1316897960520450149",
+      "channelUpdate": true,
+      "createrolelog": "1316330907279294495",
+      "roleCreate": true,
+      "deleterolelog": "1316898141546741842",
+      "roleDelete": true,
+      "roleUpdateLogChannelId": "1316331074808447046",
+      "roleUpdate": true,
+      "roleMemberLogChannelId": "1314249917866446863",
+      "roleMember": true,
+      "messageDeleteLogChannelId": "1314249917866446863",
+      "messageDelete": false,
+      "messageEditLogChannelId": "1314249917866446863",
+      "messageEdit": false,
+      "memberKicklog": "1316724487059673138",
+      "memberKick": true,
+      "memberBanlog": "1316724671806439536",
+      "memberBan": true,
+      "memberUnbanlog": "1316898521852674159",
+      "memberUnban": true,
+      "memberJoinlog": "1314249917866446863",
+      "memberJoin": false,
+      "memberLeftlog": "1314249917866446863",
+      "memberLeft": false,
+      "voiceChannellog": "1314249917866446863",
+      "voiceChannel": false,
+      "voiceChannelUpdatelog": "1314249917866446863",
+      "voiceChannelUpdate": false
+    }
+  }
+}
